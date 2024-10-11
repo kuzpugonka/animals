@@ -1,11 +1,25 @@
 /* marmelad-regular - cyrillic_latin */
 @font-face {
   font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: 'Marmelad';
+  font-family: "Marmelad";
   font-style: normal;
   font-weight: 400;
-  src: url('../public/fonts/marmelad-v18-cyrillic_latin-regular.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-       url('../public/fonts/marmelad-v18-cyrillic_latin-regular.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+  src: url("../public/fonts/marmelad-v18-cyrillic_latin-regular.woff2")
+      format("woff2"),
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+      url("../public/fonts/marmelad-v18-cyrillic_latin-regular.ttf")
+      format("truetype"); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+}
+
+:root {
+  --fon: #fff5e6;
+  --font-title: "Marmelad", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .container {

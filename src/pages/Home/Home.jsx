@@ -1,4 +1,3 @@
-import { Header } from "../../components/Header/Header";
 import { Menu } from "../../components/Menu/Menu";
 import "./Home.css";
 
@@ -6,7 +5,6 @@ export const Home = () => {
   return (
     <main className="home">
       <div className="container">
-        <Header />
         <div className="home__content">
           <h1 className="home__title">дикие и домашние животные</h1>
           <p className="home__cta">

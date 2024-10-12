@@ -6,6 +6,7 @@ import { Animal } from "./pages/Animal/animal";
 import { Error404 } from "./pages/Error/Error";
 import { About } from "./pages/About/About";
 import { Gallery } from "./pages/Gallery/Gallery";
+import { Header } from "./components/Header/Header";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           path="/"
           element={
             <>
+              <Header/>
               <Home />
             </>
           }

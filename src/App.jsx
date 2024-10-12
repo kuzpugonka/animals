@@ -5,6 +5,7 @@ import { Animals } from "./pages/Animals/Animals";
 import { Animal } from "./pages/Animal/animal";
 import { Error404 } from "./pages/Error/Error";
 import { About } from "./pages/About/About";
+import { Gallery } from "./pages/Gallery/Gallery";
 
 function App() {
   return (
@@ -28,6 +29,9 @@ function App() {
               <Animals />
             </>
           }
+          errorElement={
+            <><Error404/></>
+          }
         ></Route>
         <Route
           path="/animal"
@@ -36,6 +40,9 @@ function App() {
               <Animal />
             </>
           }
+          errorElement={
+            <><Error404/></>
+          }
         ></Route>
         <Route
           path="/about"
@@ -43,6 +50,20 @@ function App() {
             <>
               <About />
             </>
+          }
+          errorElement={
+            <><Error404/></>
+          }
+        ></Route>
+        <Route
+          path="/gallery"
+          element={
+            <>
+              <Gallery />
+            </>
+          }
+          errorElement={
+            <><Error404/></>
           }
         ></Route>
       </Routes>

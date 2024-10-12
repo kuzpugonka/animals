@@ -28,6 +28,7 @@ function App() {
           path="/animals"
           element={
             <>
+              <Header/>
               <Animals />
             </>
           }
@@ -39,6 +40,7 @@ function App() {
           path="/animal"
           element={
             <>
+              <Header/>
               <Animal />
             </>
           }
@@ -50,6 +52,7 @@ function App() {
           path="/about"
           element={
             <>
+              <Header/>
               <About />
             </>
           }
@@ -61,6 +64,7 @@ function App() {
           path="/gallery"
           element={
             <>
+              <Header/>
               <Gallery />
             </>
           }

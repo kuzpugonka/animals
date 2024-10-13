@@ -13,6 +13,15 @@ function App() {
     <>
       <Routes>
         <Route
+          path="*"
+          element={
+            <>
+              <Header />
+              <Error404 />
+            </>
+          }
+        ></Route>
+        <Route
           path="/"
           element={
             <>

@@ -72,6 +72,15 @@ function App() {
             <><Error404/></>
           }
         ></Route>
+        <Route
+          path="*"
+          element={
+            <>
+              <Header />
+              <Error404/>
+            </>
+          }
+        ></Route>
       </Routes>
     </>
   );

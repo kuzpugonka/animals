@@ -16,7 +16,7 @@ export const Header = () => {
             <img src="./src/components/Header/burger.svg" />
           </button>
         </div>
-        TODO ВЫПАДАЮЩЕЕ МЕНЮ ИЗ БУРГЕРА
+        {/* TODO ВЫПАДАЮЩЕЕ МЕНЮ ИЗ БУРГЕРА */}
       </header>
     </>
   );

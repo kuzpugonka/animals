@@ -8,16 +8,15 @@ export const Header = () => {
         <div className="container header__container">
           <Link to="/" className="header__logo">
             <img
-              src="./src/components/Header/logo.png"
-              srcSet="./src/components/Header/logo2x.png 2x"
+              src="./img/header/logo.png"
+              srcSet="./img/header/logo2x.png 2x"
             />
           </Link>
           <button className="header__burger hidden">
-            <img src="./src/components/Header/burger.svg" />
+            <img src="./img/header/burger.svg" />
           </button>
         </div>
-        TODO ВЫПАДАЮЩЕЕ МЕНЮ ИЗ БУРГЕРА
-      </header>
+      </header>      
     </>
   );
 };

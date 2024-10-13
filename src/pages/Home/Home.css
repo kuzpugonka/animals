@@ -1,17 +1,17 @@
 .home {
   width: 100%;
   height: calc(100vh - 68px);
-  background-image: url(./home-bg.png);
+  background-image: url(./img/Home-page/home-bg.png);
   background-position: right bottom;
   background-repeat: no-repeat;
 }
 .home__content {
   width: 50%;
-  padding-top: 60px;
+  padding-top: 40px;
   font-family: var(--font-title);
   display: flex;
   flex-direction: column;
-  gap: 100px;
+  gap: 60px;
 }
 .home__title {
   margin: 0;

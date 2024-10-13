@@ -6,7 +6,7 @@ export const Error404 = () => {
       <div className="error">
         {/* TODO ДОБАВИТЬ ВЁРСТКУ */}
 
-        <img className="error__img" src="./bg.png" />
+        <img className="error__img" src="./src/pages/Error/bg.png" />
       </div>
     </>
   );

@@ -12,8 +12,12 @@
 }
 
 :root {
-  --fon: #fff5e6;
   --font-title: "Marmelad", sans-serif;
+  --bg-color: #ffffff;
+  --title-color: #F4881B;
+  --text-color: #672C00;
+  --border-color: #C64612;
+  --accent-text-color: #F14622;
 }
 
 * {

@@ -1,6 +1,6 @@
 .home {
   width: 100%;
-  height: 100vh;
+  height: calc(100vh - 68px);
   background-image: url(./home-bg.png);
   background-position: right bottom;
   background-repeat: no-repeat;
@@ -18,14 +18,16 @@
   font-size: clamp(2.5rem, 1.269rem + 6.15vw, 6rem); 
   line-height: 1.3;
   text-transform: uppercase;
-  color: #f4881b;
+  color: var(--title-color);
+  -webkit-text-stroke: 1px var(--border-color);
+  /* text-stroke: 1px var(--border-color); */
 }
 .home__cta {
 font-size: clamp(1.25rem, 0.898rem + 1.76vw, 2.25rem);
 line-height: 1;
-color: #672c00;
+color: var(--text-color);
 }
 .home__cta_color {
-  color: #f14622;
+  color: var(--accent-text-color);
 }
 /* TODO @media */

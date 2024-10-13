@@ -1,20 +1,3 @@
 <svg width="38" height="38" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g filter="url(#filter0_d_36_33)">
-<path d="M6 19C6 18.4477 6.44772 18 7 18H31C31.5523 18 32 18.4477 32 19C32 19.5523 31.5523 20 31 20H7C6.44772 20 6 19.5523 6 19Z" fill="black"/>
-<path d="M6 26C6 25.4477 6.44772 25 7 25H31C31.5523 25 32 25.4477 32 26C32 26.5523 31.5523 27 31 27H7C6.44772 27 6 26.5523 6 26Z" fill="black"/>
-<path d="M6 12C6 11.4477 6.44772 11 7 11H31C31.5523 11 32 11.4477 32 12C32 12.5523 31.5523 13 31 13H7C6.44772 13 6 12.5523 6 12Z" fill="black"/>
-<path d="M7 18.5H31C31.2761 18.5 31.5 18.7239 31.5 19C31.5 19.2761 31.2761 19.5 31 19.5H7C6.72386 19.5 6.5 19.2761 6.5 19C6.5 18.7239 6.72386 18.5 7 18.5ZM7 25.5H31C31.2761 25.5 31.5 25.7239 31.5 26C31.5 26.2761 31.2761 26.5 31 26.5H7C6.72386 26.5 6.5 26.2761 6.5 26C6.5 25.7239 6.72386 25.5 7 25.5ZM7 11.5H31C31.2761 11.5 31.5 11.7239 31.5 12C31.5 12.2761 31.2761 12.5 31 12.5H7C6.72386 12.5 6.5 12.2761 6.5 12C6.5 11.7239 6.72386 11.5 7 11.5Z" stroke="black"/>
-</g>
-<defs>
-<filter id="filter0_d_36_33" x="4" y="9" width="34" height="24" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-<feFlood flood-opacity="0" result="BackgroundImageFix"/>
-<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
-<feOffset dx="2" dy="2"/>
-<feGaussianBlur stdDeviation="2"/>
-<feComposite in2="hardAlpha" operator="out"/>
-<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
-<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_36_33"/>
-<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_36_33" result="shape"/>
-</filter>
-</defs>
+<path d="M7 18.5H31C31.2761 18.5 31.5 18.7239 31.5 19C31.5 19.2761 31.2761 19.5 31 19.5H7C6.72386 19.5 6.5 19.2761 6.5 19C6.5 18.7239 6.72386 18.5 7 18.5ZM7 25.5H31C31.2761 25.5 31.5 25.7239 31.5 26C31.5 26.2761 31.2761 26.5 31 26.5H7C6.72386 26.5 6.5 26.2761 6.5 26C6.5 25.7239 6.72386 25.5 7 25.5ZM7 11.5H31C31.2761 11.5 31.5 11.7239 31.5 12C31.5 12.2761 31.2761 12.5 31 12.5H7C6.72386 12.5 6.5 12.2761 6.5 12C6.5 11.7239 6.72386 11.5 7 11.5Z" fill="#672C02" stroke="#672C02"/>
 </svg>

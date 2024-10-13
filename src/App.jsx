@@ -16,60 +16,75 @@ function App() {
           path="/"
           element={
             <>
-              <Header/>
+              <Header />
               <Home />
             </>
           }
           errorElement={
-            <><Error404/></>
+            <>
+              <Header />
+              <Error404 />
+            </>
           }
         ></Route>
         <Route
           path="/animals"
           element={
             <>
-              <Header/>
+              <Header />
               <Animals />
             </>
           }
           errorElement={
-            <><Error404/></>
+            <>
+              <Header />
+              <Error404 />
+            </>
           }
         ></Route>
         <Route
           path="/animal"
           element={
             <>
-              <Header/>
+              <Header />
               <Animal />
             </>
           }
           errorElement={
-            <><Error404/></>
+            <>
+              <Header />
+              <Error404 />
+            </>
           }
         ></Route>
         <Route
           path="/about"
           element={
             <>
-              <Header/>
+              <Header />
               <About />
             </>
           }
           errorElement={
-            <><Error404/></>
+            <>
+              <Header />
+              <Error404 />
+            </>
           }
         ></Route>
         <Route
           path="/gallery"
           element={
             <>
-              <Header/>
+              <Header />
               <Gallery />
             </>
           }
           errorElement={
-            <><Error404/></>
+            <>
+              <Header />
+              <Error404 />
+            </>
           }
         ></Route>
       </Routes>

@@ -11,7 +11,7 @@ export const BurgerModal = () => {
       <div className="burger-modal">
         <img
           className="burger-modal__img"
-          src=".\img\burger\logo.png"
+          src=".\img\icons\logo-icon.png"
           alt="logo"
         />
         <nav className="burger-modal__menu">

@@ -17,7 +17,7 @@
   line-height: 1;
   color: #672c02;
   cursor: pointer;
-  transition: scale 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 .menu__link:hover {
   scale: 1.1;
@@ -30,6 +30,9 @@
   padding: 13px 49px;
   background-color: #f4881b;
   color: #fff;
+}
+.menu__link_btn:hover {
+  transform: translateX(-10px);
 }
 
 @media (max-width: 1040px) {

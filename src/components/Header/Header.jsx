@@ -23,7 +23,7 @@ export const Header = () => {
             id="burger"
             onClick={handleClick}
           >
-            <img src="./img/header-component/burger.svg" />
+            <img src="./img/icons/burger-icon.svg" />
           </button>
         </div>
       </header>

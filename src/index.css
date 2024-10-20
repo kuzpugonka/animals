@@ -14,6 +14,7 @@
 :root {
   --font-title: "Marmelad", sans-serif;
   --bg-color: #ffffff;
+  --bg-mobile-menu: #FFE9D2;
   --title-color: #F4881B;
   --text-color: #672C00;
   --border-color: #C64612;
@@ -24,6 +25,10 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
+  position: relative;
 }
 
 a {

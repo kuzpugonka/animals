@@ -1,7 +1,13 @@
 import { Link } from "react-router-dom";
 import "./Header.css";
+import { BurgerModal } from "../BurgerModal/BurgerModal";
 
 export const Header = () => {
+  const handleClick = () => {
+    const btn = document.querySelector(".burger-modal");
+    btn.style.display = "flex";
+  };
+
   return (
     <>
       <header className="header">
@@ -12,11 +18,16 @@ export const Header = () => {
               srcSet="./img/header-component/logo2x.png 2x"
             />
           </Link>
-          <button className="header__burger">
+          <button
+            className="header__burger"
+            id="burger"
+            onClick={handleClick}
+          >
             <img src="./img/header-component/burger.svg" />
           </button>
         </div>
-      </header>      
+      </header>
+      <BurgerModal />
     </>
   );
 };

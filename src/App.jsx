@@ -7,6 +7,7 @@ import { Error404 } from "./pages/Error/Error";
 import { About } from "./pages/About/About";
 import { Gallery } from "./pages/Gallery/Gallery";
 import { Header } from "./components/Header/Header";
+import { Search } from "./components/Search/Search";
 
 function App() {
   return (
@@ -41,6 +42,7 @@ function App() {
           element={
             <>
               <Header />
+              <Search />
               <Animals />
             </>
           }
@@ -56,6 +58,7 @@ function App() {
           element={
             <>
               <Header />
+              <Search />
               <Animal />
             </>
           }

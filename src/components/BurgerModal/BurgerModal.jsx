@@ -43,6 +43,13 @@ export const BurgerModal = () => {
           >
             Животные
           </Link>
+          <Link
+            to={"./animal"}
+            className="burger-modal__link"
+            onClick={handleClick}
+          >
+            Животное
+          </Link>
         </nav>
       </div>
     </>

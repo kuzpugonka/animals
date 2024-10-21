@@ -1,0 +1,22 @@
+.img-menu {
+  padding-top: 30px;
+}
+.img-menu__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 4px;
+}
+.img-menu__item {
+  width: 40px;
+  height: 40px;
+  list-style-type: none;
+}
+.img-menu__item-link {
+  cursor: pointer;
+}
+.img-menu__item-img {
+  width: 42px;
+  height: 42px;
+  object-fit: cover;
+}

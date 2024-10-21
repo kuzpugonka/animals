@@ -4,6 +4,7 @@ import "./Menu.css";
 export const Menu = () => {
   return (
     <nav className="menu">
+      <img className="menu__burger" src="./img/icons/burger-icon.svg"/>
       <Link to={"./about"} className="menu__link">
         О&nbsp;сайте
       </Link>

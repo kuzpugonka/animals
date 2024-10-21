@@ -27,7 +27,6 @@ function App() {
           path="/"
           element={
             <>
-              <Header />
               <Home />
             </>
           }

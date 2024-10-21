@@ -1,13 +1,14 @@
-import { Route, Routes } from "react-router-dom";
 import "./App.css";
+import { Route, Routes } from "react-router-dom";
 import { Home } from "./pages/Home/Home";
 import { Animals } from "./pages/Animals/Animals";
-import { Animal } from "./pages/Animal/animal";
 import { Error404 } from "./pages/Error/Error";
 import { About } from "./pages/About/About";
 import { Gallery } from "./pages/Gallery/Gallery";
 import { Header } from "./components/Header/Header";
 import { Search } from "./components/Search/Search";
+import { Footer } from "./components/Footer/Footer";
+import { Animal } from "./pages/Animal/Animal";
 
 function App() {
   return (
@@ -44,6 +45,7 @@ function App() {
               <Header />
               <Search />
               <Animals />
+              <Footer />
             </>
           }
           errorElement={
@@ -60,6 +62,7 @@ function App() {
               <Header />
               <Search />
               <Animal />
+              <Footer />
             </>
           }
           errorElement={
@@ -75,6 +78,7 @@ function App() {
             <>
               <Header />
               <About />
+              <Footer />
             </>
           }
           errorElement={
@@ -90,6 +94,7 @@ function App() {
             <>
               <Header />
               <Gallery />
+              <Footer />
             </>
           }
           errorElement={

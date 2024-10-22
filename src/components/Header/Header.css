@@ -18,8 +18,9 @@
   width: 100%;
   height: auto;
 }
+/* включила бургер на все разрешения */
 .header__burger {
-  display: none;
+  /* display: none; */
   border: none;
   outline: none;
   padding: 0;

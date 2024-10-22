@@ -22,11 +22,12 @@ export const Home = () => {
             <Menu />
           </div>
           <div className="home__img">
-            <img
-              className="home__img-bg"
-              src="./img/Home-page/home-bg.png"
-              srcSet="./img/Home-page/home-bg2x.png"
-            />
+            <video loop autoPlay muted className="home__video">
+              <source
+                src="/img/Home-page/home-gif.mp4" 
+                type="video/mp4"
+              ></source>
+            </video>
           </div>
         </div>
       </div>

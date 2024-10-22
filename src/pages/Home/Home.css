@@ -38,9 +38,10 @@
   display: flex;
   align-items: flex-end;
 }
-.home__img-bg {
+.home__video {
   width: 100%;
   height: auto;
+  object-fit: cover;
 }
 
 @media (max-width: 768px) {

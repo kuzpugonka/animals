@@ -8,7 +8,8 @@ export const BurgerModal = () => {
   };
   return (
     <>
-      <div className="burger-modal">
+      <section className="burger-modal">
+      <h2 className="hidden">Главное меню сайта</h2>
         <div className="container">
           <div className="burger-modal__header">
             <img
@@ -46,7 +47,7 @@ export const BurgerModal = () => {
               Галерея
             </Link>
             <Link
-              to={"./animals"}
+              to={"./catalog "}
               className="burger-modal__link"
               onClick={handleClick}
             >
@@ -61,7 +62,7 @@ export const BurgerModal = () => {
             </Link>
           </nav>
         </div>
-      </div>
+      </section>
     </>
   );
 };

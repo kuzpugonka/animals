@@ -3,7 +3,7 @@ import { Route, Routes } from "react-router-dom";
 import { Home } from "./pages/Home/Home";
 import { About } from "./pages/About/About";
 import { Gallery } from "./pages/Gallery/Gallery";
-import { Animals } from "./pages/Animals/Animals";
+import { Catalog } from "./pages/Catalog/Catalog";
 import { Animal } from "./pages/Animal/Animal";
 import { Error404 } from "./pages/Error/Error";
 import { Header } from "./components/Header/Header";
@@ -38,12 +38,12 @@ function App() {
           }
         ></Route>
         <Route
-          path="/animals"
+          path="/catalog "
           element={
             <>
               <Header />
               <Search />
-              <Animals />
+              <Catalog />
               <Footer />
             </>
           }

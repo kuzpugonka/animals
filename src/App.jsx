@@ -38,7 +38,7 @@ function App() {
           }
         ></Route>
         <Route
-          path="/catalog "
+          path="/catalog"
           element={
             <>
               <Header />

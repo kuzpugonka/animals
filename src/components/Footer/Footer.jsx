@@ -9,6 +9,13 @@ export const Footer = () => {
           <div className="footer__logo">
             <img className="footer__logo-img" src="./img/footer-logo.png" />
           </div>
+          <div className="footer__info">
+            <p>Некоммерческий учебный проект</p>{" "}
+            <p>
+              Изображения и&nbsp;тексты сгенерированы с&nbsp;использованием
+              сервисов Яндекс «Шедеврум» и&nbsp;«Чат с&nbsp;Алисой»
+            </p>
+          </div>
           <div className="footer__wrap">
             <div className="footer__wrap-dev">
               <p className="footer__dev">
@@ -21,6 +28,7 @@ export const Footer = () => {
                   Софья&nbsp;Илясова
                 </Link>
               </p>
+
               <p className="footer__copiraight">©kuzpugonka 2024</p>
             </div>
 
@@ -29,13 +37,13 @@ export const Footer = () => {
                 Главная страница
               </Link>
               <Link className="footer__menu" to={"/about"}>
-              О сайте
+                О сайте
               </Link>
               <Link className="footer__menu" to={"/gallery"}>
-              Галерея
+                Галерея
               </Link>
-              <Link className="footer__menu" to={"/animals"}>
-              Животные
+              <Link className="footer__menu" to={"/catalog"}>
+                Животные
               </Link>
             </div>
 

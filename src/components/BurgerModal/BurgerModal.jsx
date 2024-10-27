@@ -47,7 +47,7 @@ export const BurgerModal = () => {
               Галерея
             </Link>
             <Link
-              to={"./catalog "}
+              to={"./catalog"}
               className="burger-modal__link"
               onClick={handleClick}
             >

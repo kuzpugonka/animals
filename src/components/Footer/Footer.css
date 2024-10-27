@@ -2,9 +2,15 @@
   margin-top: 50px;
   padding-bottom: 30px;
   background-color: var(--light-color);
+  font-size: 16px;
+  line-height: 1.3;
+  color: var(--text-color);
 }
 .footer__logo {
   padding-top: 30px;
+}
+.footer__info {
+  
   margin-bottom: 30px;
 }
 .footer__wrap {
@@ -12,9 +18,6 @@
   grid-template-columns: repeat(auto-fit, minmax(200px, 233px));
   justify-content: space-between;
   gap: 20px;
-  font-size: 16px;
-  line-height: 1.3;
-  color: var(--text-color);
 }
 .footer__wrap-dev {
   display: flex;

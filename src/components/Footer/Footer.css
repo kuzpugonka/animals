@@ -30,6 +30,10 @@
 .footer__dev-link {
   display: block;
 }
+.footer__dev-link:hover {
+  scale: 1.1;
+  transform: translateX(0);
+}
 .footer__wrap-menu {
   display: flex;
   flex-direction: column;
@@ -41,6 +45,19 @@
   padding-top: 4px;
   font-size: 0;
 }
+.footer__contact-link {
+  height: min-content;
+}
+.footer__contact-link:focus,
+.footer__dev-link:focus,
+.footer__menu:focus {
+  outline: none;
+  background-color: var(--title-color);
+  border-radius: 8px;
+  color:var(--hover-text-color);
+  scale: 1;
+}
+
 @media (max-width: 515px) {
   .footer__wrap-menu {
     order: -1;

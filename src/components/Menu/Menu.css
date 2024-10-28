@@ -18,11 +18,15 @@
   cursor: pointer;
   transition: all 0.3s ease-in-out;
 }
-.menu__link:hover {
+.menu__link:hover,
+.menu__link:focus {
   scale: 1.1;
 }
+.menu__link:active {
+  scale: 0.95;
+}
 .menu__burger {
- padding-left: 17px;
+  padding-left: 17px;
 }
 .menu__link_btn {
   border-radius: 30px;
@@ -42,7 +46,7 @@
   }
   .menu__burger {
     display: none;
-   }
+  }
   .menu__link:first-child {
     padding: 5px 0 0;
   }

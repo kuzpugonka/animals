@@ -1,9 +1,10 @@
 .home {
   width: 100%;
   height: calc(100vh - 240px);
+  padding-top: 30px;
 }
 .home__logo {
-  padding-top: 30px;
+  height: 40px;
 }
 .home__container {
   display: flex;

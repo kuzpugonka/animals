@@ -10,6 +10,7 @@
   width: 100%;
   background: var(--light-color);
   border: none;
+  font-family: var(--font-title);
 }
 .search__form-input {
   flex-grow: 1;

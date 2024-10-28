@@ -51,3 +51,8 @@ a {
 .hidden {
   display: none;
 }
+
+::selection {
+  background-color: var(--light-color);
+  color: var(--text-color);
+}

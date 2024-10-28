@@ -8,6 +8,7 @@ import { Animal } from "./pages/Animal/Animal";
 import { Error404 } from "./pages/Error/Error";
 import { Header } from "./components/Header/Header";
 import { Search } from "./components/Search/Search";
+import { ImgMenu } from "./components/ImgMenu/ImgMenu";
 import { Footer } from "./components/Footer/Footer";
 
 function App() {
@@ -60,6 +61,7 @@ function App() {
             <>
               <Header />
               <Search />
+              <ImgMenu />
               <Animal />
               <Footer />
             </>

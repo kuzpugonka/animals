@@ -6,6 +6,7 @@ export const Search = () => {
     <>
       <section className="search">
         <div className="container">
+        <h2 hidden>Поиск по названию животного</h2>
           <form className="search__form">
             <input className="search__form-input" placeholder="Введи название животного" id="search" name="search"/>
             <button className="search__form-btn">

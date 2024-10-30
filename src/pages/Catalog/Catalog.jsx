@@ -39,7 +39,7 @@ export const Catalog = () => {
             key={item.id}
             title={item.title}
             liter={item.liter}
-            img={item.original}
+            img={item.thumbnail}
             category={item.categoryRu}
           />
         ))}

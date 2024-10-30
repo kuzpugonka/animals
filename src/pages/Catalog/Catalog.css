@@ -50,3 +50,9 @@
   grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
   gap: 30px;
 }
+
+@media (max-width: 768px) {
+  .side-wrap {
+    flex-wrap: wrap;
+  }
+}

@@ -7,8 +7,8 @@ export const Error404 = () => {
       <div className="error">
         <div className="container">
           <div className="error__row">
-            <h2 className="error__title">404</h2>
-            <img className="error__img" src="./img/error404-page/bg.png" />
+            <h2 className="error__title">404</h2> 
+            <img className="error__img" src="./img/error404-page/bg.png"  alt="зайчик" aria-label="изображение зайчика"/>
             <p className="error__description">
               Запрашиваемая Вами страница не&nbsp;существует
               или&nbsp;была&nbsp;удалена.

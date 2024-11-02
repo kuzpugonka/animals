@@ -32,22 +32,22 @@ export const Footer = () => {
               <p className="footer__copiraight">©kuzpugonka 2024</p>
             </div>
 
-            <div className="footer__wrap-menu">
-              <Link className="footer__menu" to={"/"}>
+            <nav className="footer__nav-menu">
+              <Link className="footer__menu-link" to={"/"}>
                 Главная страница
               </Link>
-              <Link className="footer__menu" to={"/about"}>
+              <Link className="footer__menu-link" to={"/about"}>
                 О сайте
               </Link>
-              <Link className="footer__menu" to={"/gallery"}>
+              <Link className="footer__menu-link" to={"/gallery"}>
                 Галерея
               </Link>
-              <Link className="footer__menu" to={"/catalog"}>
+              <Link className="footer__menu-link" to={"/catalog"}>
                 Животные
               </Link>
-            </div>
+            </nav>
 
-            <div className="footer__wrap-contacts">
+            <nav className="footer__nav-contacts">
               <Link
                 className="footer__contact-link"
                 to={"https://t.me/kuzpugonka"}
@@ -107,7 +107,7 @@ export const Footer = () => {
                   alt="behance"
                 />
               </Link>
-            </div>
+            </nav>
           </div>
         </div>
       </footer>

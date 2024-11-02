@@ -10,8 +10,7 @@
 .footer__logo {
   padding-top: 30px;
 }
-.footer__info {
-  
+.footer__info {  
   margin-bottom: 30px;
 }
 .footer__wrap {
@@ -30,12 +29,12 @@
 .footer__dev-link {
   display: block;
 }
-.footer__wrap-menu {
+.footer__nav-menu {
   display: flex;
   flex-direction: column;
   padding-top: 4px;
 }
-.footer__wrap-contacts {
+.footer__nav-contacts {
   display: flex;
   justify-content: space-between;
   padding-top: 4px;
@@ -46,7 +45,7 @@
 }
 .footer__contact-link:focus,
 .footer__dev-link:focus,
-.footer__menu:focus {
+.footer__menu-link:focus {
   outline: none;
   background-color: var(--title-color);
   border-radius: 8px;
@@ -55,7 +54,7 @@
 }
 
 @media (max-width: 515px) {
-  .footer__wrap-menu {
+  .footer__nav-menu {
     order: -1;
   }
 }
